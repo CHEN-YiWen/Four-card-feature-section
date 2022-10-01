@@ -1,0 +1,149 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 0.938rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Very-Light-Gray);
+}
+
+main{
+    /*寬度要再調整*/
+    width: 85%;
+    margin-top: 5.625rem;
+}
+
+.top h2{
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 300;
+    color: var(--Very-Dark-Blue);
+
+}
+
+.top h1{
+    color: var(--Very-Dark-Blue);
+    text-align: center;
+    font-size: 6.5vw;
+    margin-top: 0.75rem;
+}
+
+.top p{
+    text-align: center;
+    color: var(--Grayish-Blue);
+    margin-top: 1.75rem;
+}
+
+.function{
+    margin-top: 3rem;
+}
+
+.function section{
+    background-color: white;
+    margin-bottom: 1.625rem;
+    border-radius: 0.375rem;/*寬度要再改*/
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: 0.063rem 0.063rem 0.75rem 0.063rem var(--Grayish-Blue);
+}
+
+.function h1{
+    color: var(--Very-Dark-Blue);
+    font-size: 1.45rem;
+}
+
+.function p{
+    color: var(--Grayish-Blue);
+    font-weight: 300;
+    margin-top: 1.25rem;
+}
+.box1{
+    border-top: solid 0.313rem var(--Cyan);
+}
+
+.box2{
+    border-top: solid 0.313rem var(--Red);
+}
+
+.box3{
+    border-top: solid 0.313rem var(--Orange);
+}
+
+.box4{
+    border-top: solid 0.313rem var(--Blue);
+}
+
+img{
+    /*大小?*/
+    width: 4rem;
+    height: 4rem;
+    align-self: end;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:950px){
+    main{
+        width: 100%;
+        margin-top: 1.675rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .top{
+        width: min(43.75rem, 70%);
+        margin: 0 auto;
+        /*padding-left: 20rem;
+        padding-right: 20rem;*/
+    }
+
+    .top h2, .top h1{
+        font-size: 2.6vw;
+    }
+
+    .top h1{
+        margin-top: 0.25rem;
+    }
+
+    .top p{
+        padding-left: 5.25rem;
+        padding-right: 5.25rem;
+    }
+    .function{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .center{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .box1, .center, .box4{
+        width: max(23rem);
+    }
+
+    .box1, .box2, .box3, .box4{
+        height: 16.25rem;
+    }
+    /*修改方向：螢幕大小介於500~950px之間時，是否可以改成2*2的樣子？*/
+}
