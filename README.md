@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/CHEN-YiWen/Four-card-feature-section)
+- Live Site URL: [Live site host by Github](https://chen-yiwen.github.io/Four-card-feature-section/)
 
 ## My process
 
@@ -77,8 +77,10 @@ Users should be able to:
 
 - I am afriad that the html isn't semantic enough. I will have to go through the code agian and chang it.
 
-- It is quick to create the layout by using <code>display: flex</code>. However, I realize that I can not make the cards into a 2*2 column for smaller screen (500px to 950px). Just like [@vcarames]'s(https://vcarames.github.io/Four-Card-Layout/) design.![](screenshot/Screenshot_vcarames.png) (Vcarames' design is really impressive! You should check it out!)
- Although they used <code>display: grid</code> for this challenge, I believe it is possible to create the same 2*2 column by using <code>disp;ay: flex</code>. I think the reason why I can't achieve that maybe has something to do with my html code.
+- It is quick to create the layout by using <code>display: flex</code>. However, I realize that I can not make the cards into a 2*2 column for smaller screen (500px to 950px). Just like [@vcarames]'s(https://vcarames.github.io/Four-Card-Layout/) design.
+![](screenshot/Screenshot_vcarames.png) 
+(Vcarames' design is really impressive! You should check it out!)
+Although they used <code>display: grid</code> for this challenge, I believe it is possible to create the same 2*2 column by using <code>disp;ay: flex</code>. I think the reason why I can't achieve that maybe has something to do with my html code.
 
 - Once I get the hang of <code>display: flex</code>, I would like to try learn how to create the simailiar layout in <code>display: grid</code>.
 
