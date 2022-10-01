@@ -92,5 +92,5 @@ Although they used <code>display: grid</code> for this challenge, I believe it i
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CHEN-YiWen](https://www.frontendmentor.io/profile/CHEN-YiWen)
 
